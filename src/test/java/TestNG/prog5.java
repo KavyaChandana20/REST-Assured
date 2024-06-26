@@ -1,8 +1,8 @@
-package TestNG.Priority;
+package TestNG;
 
 import org.testng.annotations.Test;
 
-public class prog1
+public class prog5
 {
     @Test(priority = 1)
     public void testMethodOne() {

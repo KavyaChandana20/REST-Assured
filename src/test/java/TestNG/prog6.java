@@ -1,8 +1,8 @@
-package TestNG.Priority;
+package TestNG;
 
 import org.testng.annotations.Test;
 
-public class prog2
+public class prog6
 {
 
     // if same priority then it will execute in alphabetical or numeric order
@@ -15,6 +15,7 @@ public class prog2
     public void testMethodA() {
         System.out.println("Test Method A");
     }
+
 
     @Test(priority = 1)
     public void testMethodC() {
