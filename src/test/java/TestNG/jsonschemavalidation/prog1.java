@@ -18,7 +18,7 @@ public class prog1
         if both are same then TC will pass
 
         Logon to -- https://jsonschema.net/login
-        Copy any valid response and submit, it ill generate json schema.
+        Copy any valid response and submit, it will generate json schema.
         Copy the schema and come to intelliJ and create file "schema.json" and paste the schema
          */
     }
