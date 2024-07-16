@@ -13,11 +13,14 @@ public class DeleteRequestNonBDDstyle
     Response response;
     ValidatableResponse vr;
     String token = "79c2802fcbea885";
-    //get the token by running the url in Postman https://restful-booker.herokuapp.com/auth
-    //token expires for every 15min
+     /* get the token by running the url in Postman https://restful-booker.herokuapp.com/auth with body as raw & paste the below
+          {
+             "username" : "admin",
+            "password" : "password123"
+          }
+    token expires for every 15min */
 
     String bookingid = "1850";
-
     String BASE_URL = "https://restful-booker.herokuapp.com";
     String BASE_PATH = "/booking";
 

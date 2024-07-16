@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restful booker CRUD">
+<!--    <test verbose="2" preserve-order="true" name="CRUD All Test">-->
+<!--                <classes>-->
+<!--                    <class name="CRUD_operations.Post.PostRequestBDDstyle"></class>-->
+<!--                    <class name="CRUD_operations.Get.GetRequest"></class>-->
+<!--                    <class name="CRUD_operations.Put.PutRequestNonBDDstyle"></class>-->
+<!--                    <class name="CRUD_operations.Patch.PatchRequestNonBDDstyle"></class>-->
+<!--                    <class name="CRUD_operations.Delete.DeleteRequestNonBDDstyle"></class>-->
+<!--                </classes>-->
+<!--    </test>-->
+
+             <!--    To comment - ctrl + /  -->
+
+    <packages>
+        <package name="CRUD_operations.*" />
+    </packages>
+
+</suite>
