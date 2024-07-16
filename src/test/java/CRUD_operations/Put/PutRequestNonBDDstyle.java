@@ -19,7 +19,8 @@ public class PutRequestNonBDDstyle
              "username" : "admin",
             "password" : "password123"
           }
-    token expires for every 15min */
+          Go to authorization tab --> select Auth type as "Basic Auth"
+          Token expires for every 15min */
 
     String bookingid = "656"; // get this id from post req
     String BASE_URL = "https://restful-booker.herokuapp.com";

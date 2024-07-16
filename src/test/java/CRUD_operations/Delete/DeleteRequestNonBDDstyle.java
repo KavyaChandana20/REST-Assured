@@ -18,7 +18,8 @@ public class DeleteRequestNonBDDstyle
              "username" : "admin",
             "password" : "password123"
           }
-    token expires for every 15min */
+          Go to authorization tab --> select Auth type as "Basic Auth"
+          Token expires for every 15min */
 
     String bookingid = "1850";
     String BASE_URL = "https://restful-booker.herokuapp.com";
